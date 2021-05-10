@@ -16,10 +16,12 @@ The results of the refinement in the code are visible, first and foremost, in th
 ![Original code for 2018](https://github.com/mustail/stock-analysis/blob/bec628ddd6467da5c25223af21281da10f9f8e90/Resources/Green_Stocks_2018.png)
 
 
-The refactored code, however, is remarkably faster, running the dataset for 2017 in less than ___0.08___ seconds and the data of the following year, even faster, in around ___0.07___ seconds. On both datasets, the refactored code is roughly ___four times faster___. While in this particular dataset, this does not amount to much, but in cases involving tens of thousands of stocks, the difference would prove to be significant both in terms of time as well as energy spent on the processing.
+The refactored code, however, is remarkably faster, running the dataset for 2017 in less than ___0.08___ seconds and the data of the following year, even faster, in around ___0.07___ seconds. On both datasets, the refactored code is roughly ___four times faster___.
 
 ![Refactored code for 2017](https://github.com/mustail/stock-analysis/blob/bec628ddd6467da5c25223af21281da10f9f8e90/Resources/VBA_Challenge_2017.png)
 ![Refactored code for 2018](https://github.com/mustail/stock-analysis/blob/bec628ddd6467da5c25223af21281da10f9f8e90/Resources/VBA_Challenge_2018.png)
+
+While in this particular dataset, this does not amount to much, but in cases involving tens of thousands of stocks, the difference would prove to be significant both in terms of time as well as energy spent on the processing.
 
 ### Some reasons why the refactored code is faster
 
